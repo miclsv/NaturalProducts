@@ -18,7 +18,7 @@ public class GreetingHandler {
 
     public RouterFunction<ServerResponse> routes() {
         return RouterFunctions.route()
-            .GET("/greeting", this::greeting)
+            .GET("/greetings", this::greeting)
             .build();
     }
 
